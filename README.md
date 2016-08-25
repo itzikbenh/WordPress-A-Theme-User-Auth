@@ -4,7 +4,7 @@ Plugin for allowing users to register into your WordPress site via front-end for
 # NOTE:
 This is not meant to be distributed since it only suits to specific use cases. It doesn't offer an options page to add or remove fields. This is geared toward developers who want to use it as a starting point and add their own code on top of it. Of course it's good enough out of the box as well. All depends on what you need.
 
-In the functions.php file there is a function that redirects user to the login page after he logs out. This will apply for you as an admin to. Remove it if you wish.
+In the functions.php file there is a function that redirects user to the login page after he logs out. This will apply for you as an admin too. Remove it if you wish.
 
 This plugin assumes that your theme is using bootstrap and font-awesome. If not then style it however you wish.
 
