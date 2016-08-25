@@ -41,11 +41,6 @@ function ath_register_form()
                      <?php endif; ?>
                 </div>
 
-                <div class="form-group">
-                    <label for="profile_image">Profile Image</label>
-                    <input type="file" name="profile_image">
-                </div>
-
                 <div class="<?php echo "form-group" . ( errors_has("password") ? " has-error" : "" );  ?>">
                     <input type="password" class="form-control" id="password-register" name="password" placeholder="Password">
                     <?php if( errors_has("password") ): ?>

@@ -53,7 +53,7 @@ function ath_update_profile_form()
                 </div>
 
                 <div class="form-group">
-                    <button type="submit" class="btn btn-success btn-lg btn-block update">
+                    <button type="submit" class="btn btn-success btn-lg btn-block update-profile">
                         <i class="fa fa-btn fa-user"></i> Update
                     </button>
                 </div>

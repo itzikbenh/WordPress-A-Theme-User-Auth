@@ -42,15 +42,6 @@ function ath_register_user()
         exit;
     }
 
-    require_once( ABSPATH . 'wp-admin/includes/image.php' );
-    require_once( ABSPATH . 'wp-admin/includes/file.php' );
-    require_once( ABSPATH . 'wp-admin/includes/media.php' );
-
-    $attachment_id  = media_handle_upload( 'profile_image', 0 );
-    $attachment_url = wp_get_attachment_url( $attachment_id );
-
-    add_user_meta( $user_id, "profile_image", $attachment_url );
-
     //We set this to false at first.
     add_user_meta( $user_id, "email_activated", "0" );
 
