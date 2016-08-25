@@ -1,0 +1,34 @@
+.alert-danger {
+  background: #f44336;
+  color: #FFF;
+}
+
+.alert-success {
+  background: #4caf50;
+  color: #FFF;
+}
+
+.ath-card-auth {
+    background: #FFF;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 350px;
+}
+
+.ath-card-auth .ath-card-content {
+    padding: 10px 30px;
+}
+
+.ath-card-auth .ath-card-content .forgot-password {
+    color: #f44336;
+    display: block;
+    text-align: center;
+}
+
+.ath-card-auth .ath-card-title {
+    text-align: center;
+    padding: 10px 0px;
+}
